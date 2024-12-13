@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.homepage {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(45deg, #1d2671, #c33764);
+  color: white;
+  padding: 100px 0;
+  min-height: 80vh;
+  display: flex; /* Add Flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+}
+
+.hero-title span {
+  color: #ffcc00;
+}
+
+.hero-subtitle {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+.hero-section #link-button {
+  background-color: #ffcc00;
+  color: #1d2671;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.hero-section #link-button:hover {
+  background-color: white;
+  color: #ffcc00;
+}
+
+/* About Section */
+.about-section {
+  background-color: #f8f9fa;
+  padding: 50px 20px;
+}
+
+.about-section span {
+  color: #c33764;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-section h2 {
+  color: #1d2671;
+  font-weight: bold;
+}
+
+.about-section p {
+  margin: 20px auto;
+  max-width: 700px;
+  font-size: 1.1rem;
+}
+
+/* Features Section */
+.features-section {
+  padding: 50px 20px;
+}
+
+.features-section h2 {
+  color: #1d2671;
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.features-section h3 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.features-section p {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #1d2671;
+  color: white;
+  padding: 50px 20px;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-section .link-btn {
+  background: #ffcc00;  
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #1d2671;
+  transition: all 0.3s;
+}
+
+.contact-section .link-btn:hover {
+  background: white;
+  color: #ffcc00;
+}
+
