@@ -25,6 +25,7 @@ const corsOptions = {
     "http://localhost:3000",
     "http://localhost:5000",
     "http://localhost:5173",
+    "https://portfolio-ofu9.onrender.com",
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   credentials: true,
